@@ -64,7 +64,7 @@ export default {
 
     chartBound() {
       // suppoort high DPI canvas
-      const pixel_rartio = window.devicePixelRatio || 1;
+      const pixel_rartio = 1;
       const {width, height} = this;
 
       // this.$refs.$canvas.getContext('2d').scale(pixel_rartio, pixel_rartio);

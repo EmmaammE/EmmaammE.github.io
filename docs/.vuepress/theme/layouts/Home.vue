@@ -213,14 +213,14 @@ export default {
               }
 
               &.active {
-                color: #abd29e;
+                color: #b09174;
               }
             }
           }
         }
 
         .level-2 {
-          flex: 0 0 35%;
+          flex: 1 0 35%;
           padding: 10% 10px;
           background: #f8f5f2;
           mask-image: linear-gradient(90deg, rgba(83, 79, 79, 0) 0%, #ffffff 25%, #ffffff 75%, rgba(255, 255, 255, 0) 100%);
@@ -274,8 +274,7 @@ export default {
                 min-width: 50px;
                 padding-right: 12px;
                 align-self: flex-start;
-                background-image: -webkit-gradient(linear, left top, left bottom, from(aquamarine), to(orangered));
-                background-image: linear-gradient(to bottom, aquamarine, orangered);
+                background-image: linear-gradient(to bottom, #b09174, orangered);
                 background-attachment: fixed;
                 -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
